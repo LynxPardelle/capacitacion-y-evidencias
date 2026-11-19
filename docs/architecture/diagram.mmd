@@ -1,0 +1,9 @@
+flowchart LR
+    P["Coordinador e instructor"] --> W["Angular 22 + SignalStore"]
+    W -->|Disponible en la base| H["HTTP API GET /api/health"]
+    H --> L["Lambda Node.js 24"]
+    W -.->|Siguiente fase OIDC| C["Cognito"]
+    W -.->|Siguiente fase API protegida| A["Cursos, grupos y evidencias"]
+    A -.-> D["DynamoDB de capacitación por organización"]
+    A -.-> S["S3 privado con versiones"]
+    L --> O["Logs con retención de 14 días"]
