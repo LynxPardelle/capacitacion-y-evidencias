@@ -1,0 +1,35 @@
+{
+  "verifiedAt": "2026-11-19",
+  "automaticCi": {
+    "name": "capacitacion-y-evidencias",
+    "runId": 44615652982,
+    "url": "https://github.com/LynxPardelle/capacitacion-y-evidencias/actions/runs/44615652982",
+    "sha": "45eac6eb9a257e6050df6180c5268c01f1bad3b1",
+    "event": "push",
+    "conclusion": "success"
+  },
+  "rejectedDirectPromotion": {
+    "repo": "capacitacion-y-evidencias",
+    "pr": 1,
+    "prUrl": "https://github.com/LynxPardelle/capacitacion-y-evidencias/pull/1",
+    "headSha": "45eac6eb9a257e6050df6180c5268c01f1bad3b1",
+    "checkName": "zoo/promotion/production",
+    "appId": 15368,
+    "checkUrl": "https://github.com/LynxPardelle/capacitacion-y-evidencias/actions/runs/44615865959/job/135884251135",
+    "checkId": 135884251135,
+    "conclusion": "failure",
+    "blocked": true,
+    "mergeStateStatus": "BLOCKED",
+    "state": "closed",
+    "merged": false,
+    "closedHeadSha": "45eac6eb9a257e6050df6180c5268c01f1bad3b1",
+    "observedAt": "2026-11-19T21:09:52.8374487Z",
+    "error": null,
+    "runUrl": "https://github.com/LynxPardelle/capacitacion-y-evidencias/actions/runs/44615865959",
+    "event": "pull_request_target"
+  },
+  "requiredAppId": 15368,
+  "protectionsChanged": false,
+  "temporaryProbeRemoved": true,
+  "positivePromotionEvidence": "GitHub pull request history: development -> testing -> main"
+}
